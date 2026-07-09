@@ -6,7 +6,6 @@ import {
   FaGithub,
   FaLinkedin,
   FaEnvelope,
-  FaMapMarkerAlt,
 } from "react-icons/fa";
 
 const contacts = [
