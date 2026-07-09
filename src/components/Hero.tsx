@@ -70,7 +70,7 @@ function Hero() {
               </button>
 
               <a
-                href="/mohits-resume.pdf"
+                href="/mohitt-resume.pdf"
                 download="Mohit-Sharma-Resume.pdf"
                 className="px-7 py-3 rounded-xl border border-blue-500 text-blue-400 hover:bg-blue-600 hover:text-white transition-all duration-300"
               >

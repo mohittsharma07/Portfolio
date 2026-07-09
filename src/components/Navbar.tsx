@@ -43,8 +43,8 @@ function Navbar() {
         {/* Resume Button */}
 
         <a
-          href="/mohits-resume.pdf"
-          download
+          href="/mohitt-resume.pdf"
+          download="Mohit-Sharma-Resume.pdf"
           className="hidden lg:inline-flex px-6 py-3 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 text-white font-semibold shadow-lg shadow-blue-500/30 hover:scale-105 transition-all duration-300"
         >
           Download Resume
@@ -98,8 +98,8 @@ function Navbar() {
 
               <div className="px-6 pt-4">
                 <a
-                  href="/mohits-resume.pdf"
-                  download
+                  href="/mohitt-resume.pdf"
+                  download="Mohit-Sharma-Resume.pdf"
                   onClick={() => setMenuOpen(false)}
                   className="block text-center px-6 py-3 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 text-white font-semibold shadow-lg shadow-blue-500/30"
                 >
