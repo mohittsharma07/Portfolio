@@ -1,75 +1,96 @@
-# React + TypeScript + Vite
+#  Mohit Sharma - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive portfolio website showcasing my skills, projects, certifications, and contact information. Built using React, TypeScript, Tailwind CSS, and Vite with a clean UI and smooth animations.
 
-Currently, two official plugins are available:
+##  Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+ https://portfolio-seven-orpin-21.vercel.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  About
 
-## Expanding the ESLint configuration
+Hi, I'm *Mohit Sharma*, a BCA Final Year student and Frontend Developer passionate about building modern, responsive, and user-friendly web applications. I enjoy learning new technologies and creating real-world projects that solve practical problems.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+##  Features
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- Responsive Design
+- Smooth Scrolling Navigation
+- Modern UI/UX
+- Download Resume
+- Projects Showcase
+- Skills Section
+- Certificates Section
+- Contact Section
+- Social Media Links
+- Framer Motion Animations
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
 
-```
+## Tech Stack
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Frontend
+- React
+- TypeScript
+- Tailwind CSS
+- Vite
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Libraries
+- Framer Motion
+- React Icons
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Tools
+- Git
+- GitHub
+- Vercel
+- VS Code
 
-```
+---
+
+## Featured Projects
+
+###  NestMatch
+Room & Roommate Finder built with React, TypeScript and Firebase.
+
+###  Netflix Clone
+Netflix-inspired UI using React and Firebase Authentication.
+
+### Currency Converter
+Real-time currency conversion application.
+
+###  Smart Student Calculator
+CGPA, SGPA, EMI and Age Calculator.
+
+### Rock Paper Scissors
+Interactive game built with JavaScript.
+
+###  Tic Tac Toe
+Classic Tic Tac Toe game.
+
+---
+
+##  Certificates
+
+- HackerRank Software Engineer
+- Tata Crucible Campus Quiz
+
+---
+
+##  Contact
+
+ Email: mohittt247@gmail.com
+
+ LinkedIn:
+https://www.linkedin.com/in/mohit-sharma-2360b934a
+
+ GitHub:
+https://github.com/mohittsharma07
+
+ Portfolio:
+https://portfolio-seven-orpin-21.vercel.app/
+
+---
+
+⭐ If you like this project, don't forget to give it a star on GitHub!
