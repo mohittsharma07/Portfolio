@@ -75,7 +75,10 @@ function About() {
                 Bachelor of Computer Applications
               </p>
 
-              <p className="text-slate-500 text-sm"> Chhatrapati Shahu Ji Maharaj University,Kanpur</p>
+              <p className="text-slate-500 text-sm">
+                {" "}
+                Chhatrapati Shahu Ji Maharaj University,Kanpur
+              </p>
 
               <p className="text-blue-400 font-medium">3rd Year</p>
             </motion.div>
@@ -135,6 +138,7 @@ function About() {
             <div className="grid sm:grid-cols-2 gap-4">
               {[
                 "React.js",
+                "Node.js",
                 "TypeScript",
                 "Tailwind CSS",
                 "Firebase",

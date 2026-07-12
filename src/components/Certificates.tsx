@@ -9,12 +9,31 @@ import {
 
 const certificates = [
   {
-    title: "Software Engineer Certificate",
+    title: "Software Engineer",
     issuer: "HackerRank",
     date: "5 July 2026",
     image: "/certificates/hackerrank-software-engineer.png",
     description:
       "Verified HackerRank Software Engineer certificate earned by completing coding and problem-solving assessments.",
+    verified: true,
+  },
+
+  {
+    title: "Frontend Developer (React)",
+    issuer: "HackerRank",
+    date: "12 July 2026",
+    image: "/certificates/HackerRank-Frontend-Developer.png",
+    description:
+      "Verified HackerRank Frontend Developer (React) role certification.",
+    verified: true,
+  },
+
+  {
+    title: "YUVA AI For All",
+    issuer: "TCS iON × IndiaAI",
+    date: "10 July 2026",
+    image: "/certificates/TCS-iON-YUVA.png",
+    description: "Certificate of Completion for YUVA AI For All.",
     verified: true,
   },
   {
@@ -41,7 +60,6 @@ function Certificates() {
       <div className="absolute bottom-0 right-0 w-96 h-96 rounded-full bg-cyan-500/20 blur-[160px]" />
 
       <div className="max-w-7xl mx-auto relative z-10">
-
         {/* Heading */}
 
         <motion.div

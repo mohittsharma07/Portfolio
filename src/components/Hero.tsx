@@ -44,12 +44,12 @@ function Hero() {
 
             <h2 className="mt-6 text-xl md:text-3xl font-semibold text-slate-300">
               Frontend Developer
-              <span className="text-blue-400"> | React • TypeScript</span>
+              <span className="text-blue-400"> | React • TypeScript • Node.js </span>
             </h2>
 
             <p className="mt-8 max-w-xl text-slate-400 leading-8 text-lg">
               I'm a BCA 3rd year student and Frontend Developer with hands-on
-              experience in React, TypeScript, Tailwind CSS and Firebase. I
+              experience in React, TypeScript, Node.js, Tailwind CSS and Firebase. I
               enjoy building responsive web applications, learning new
               technologies, and improving my development skills through
               real-world projects.
