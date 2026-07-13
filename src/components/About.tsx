@@ -144,6 +144,7 @@ function About() {
                 "Firebase",
                 "Responsive Design",
                 "Git & GitHub",
+                "Canva",
                 "Problem Solving",
                 "Currently Building Projects",
                 "Open to Internship Opportunities",

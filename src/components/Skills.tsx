@@ -9,6 +9,7 @@ import {
   FaGithub,
   FaPython,
   FaJava,
+  FaPalette,
 } from "react-icons/fa";
 
 import { FaMicrosoft } from "react-icons/fa6";
@@ -41,6 +42,8 @@ const skills = [
   { name: "GitHub", icon: <FaGithub />, color: "text-white" },
   { name: "Cloudinary", icon: <SiCloudinary />, color: "text-blue-300" },
   { name: "MS Office", icon: <FaMicrosoft />, color: "text-blue-400" },
+  { name: "Canva", icon: <FaPalette />, color: "text-cyan-400" },
+
 ];
 
 function Skills() {
