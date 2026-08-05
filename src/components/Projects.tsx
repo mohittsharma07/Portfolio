@@ -27,7 +27,7 @@ const projects = [
       "A Netflix-inspired frontend clone built to practice responsive layouts and React components.",
     tech: ["React", "TypeScript", "Tailwind"],
     github: "https://github.com/mohittsharma07/NETFLIX-CLONE",
-    live: "https://netflix-clone-i76q.vercel.app/",
+    live: "https://netflix-clone-cx7g.vercel.app/",
 
     images: [
       "/projects/netflix-home.png",
