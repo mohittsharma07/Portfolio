@@ -48,7 +48,6 @@ function Hero() {
                 | React • TypeScript • Node.js{" "}
               </span>
             </h2>
-
             <p className="mt-8 max-w-xl text-slate-400 leading-8 text-lg">
               I'm a{" "}
               <span className="text-white font-semibold">BCA 3rd Year</span>{" "}
@@ -56,8 +55,8 @@ function Hero() {
               <span className="text-white font-semibold">
                 {" "}
                 C, C++, Java, Python, Data Structures & Algorithms
-              </span>
-              and enjoy building web applications using
+              </span>{" "}
+               and enjoy building web applications using
               <span className="text-white font-semibold">
                 {" "}
                 React, TypeScript, Node.js, Firebase, Tailwind CSS, and SQL
