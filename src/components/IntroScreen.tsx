@@ -67,7 +67,7 @@ function IntroScreen({ isVisible }: IntroProps) {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5 }}
             >
-              Frontend Developer Portfolio
+              Full Stack Developer Portfolio
             </motion.p>
 
             <div className="mt-10 w-72 h-[5px] rounded-full bg-slate-800 overflow-hidden mx-auto">
@@ -87,7 +87,7 @@ function IntroScreen({ isVisible }: IntroProps) {
                 repeat: Infinity,
               }}
             >
-              Crafting Your Experience...
+              Building Modern Web Experiences...
             </motion.p>
           </motion.div>
         </motion.div>

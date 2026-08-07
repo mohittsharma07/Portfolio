@@ -19,7 +19,6 @@ function Hero() {
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 pt-28 pb-16 w-full">
         <div className="grid lg:grid-cols-2 gap-10 items-center">
-
           {/* Left Side */}
 
           <motion.div
@@ -43,16 +42,28 @@ function Hero() {
             </h1>
 
             <h2 className="mt-6 text-xl md:text-3xl font-semibold text-slate-300">
-              Frontend Developer
-              <span className="text-blue-400"> | React • TypeScript • Node.js </span>
+              Aspiring Full Stack Developer
+              <span className="text-blue-400">
+                {" "}
+                | React • TypeScript • Node.js{" "}
+              </span>
             </h2>
 
             <p className="mt-8 max-w-xl text-slate-400 leading-8 text-lg">
-              I'm a BCA 3rd year student and Frontend Developer with hands-on
-              experience in React, TypeScript, Node.js, Tailwind CSS and Firebase. I
-              enjoy building responsive web applications, learning new
-              technologies, and improving my development skills through
-              real-world projects.
+              I'm a{" "}
+              <span className="text-white font-semibold">BCA 3rd Year</span>{" "}
+              student with a strong interest in web development. I have learned
+              <span className="text-white font-semibold">
+                {" "}
+                C, C++, Java, Python, Data Structures & Algorithms
+              </span>
+              and enjoy building web applications using
+              <span className="text-white font-semibold">
+                {" "}
+                React, TypeScript, Node.js, Firebase, Tailwind CSS, and SQL
+              </span>
+              . I'm always learning new technologies by building personal
+              projects and improving my problem-solving skills.
             </p>
 
             {/* Buttons */}
@@ -74,7 +85,7 @@ function Hero() {
                 download="Mohit-Sharma-Resume.pdf"
                 className="px-7 py-3 rounded-xl border border-blue-500 text-blue-400 hover:bg-blue-600 hover:text-white transition-all duration-300"
               >
-                Download Resume
+                Resume
               </a>
             </div>
 

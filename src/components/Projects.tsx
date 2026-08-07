@@ -5,8 +5,8 @@ const projects = [
   {
     title: "NestMatch",
     description:
-      "A Room & Roommate Finder web application built using React, TypeScript, Tailwind CSS and Firebase. It includes authentication, room listings and a responsive user interface.",
-    tech: ["React", "TypeScript", "Tailwind", "Firebase"],
+      "A full-stack Room & Roommate Finder web application built with React, TypeScript, Tailwind CSS, Firebase, and Cloudinary. It includes user authentication, room listings, profile management, image uploads, and a fully responsive user interface.",
+    tech: ["React", "TypeScript", "Tailwind", "Firebase", "Cloudinary"],
     github: "https://github.com/mohittsharma07/NestMatch",
     live: "https://nest-match-five.vercel.app/",
     featured: true,
@@ -24,7 +24,7 @@ const projects = [
   {
     title: "Netflix Clone",
     description:
-      "A Netflix-inspired frontend clone built to practice responsive layouts and React components.",
+      "A responsive Netflix-inspired web application built using React, TypeScript, and Tailwind CSS. It features a modern UI, reusable components, responsive layouts, and smooth user experience.",
     tech: ["React", "TypeScript", "Tailwind"],
     github: "https://github.com/mohittsharma07/NETFLIX-CLONE",
     live: "https://netflix-clone-cx7g.vercel.app/",
@@ -39,7 +39,7 @@ const projects = [
   {
     title: "Smart Calculator",
     description:
-      "A calculator that performs basic mathematical operations with a clean and responsive interface.",
+      "A responsive Smart Student Calculator that includes Age Calculator, EMI Calculator, CGPA Calculator, SGPA Calculator, Percentage Calculator, and basic mathematical operations in a single application.",
     tech: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/mohittsharma07/Smart-Student-Calculator",
     live: "https://smart-student-calculator.vercel.app/index.html",
@@ -49,7 +49,7 @@ const projects = [
   {
     title: "Currency Converter",
     description:
-      "A currency converter that fetches live exchange rates using an API.",
+      "A live currency converter built with React that fetches real-time exchange rates using an API and provides fast and accurate currency conversion.",
     tech: ["React", "API", "CSS"],
     github: "https://github.com/mohittsharma07/live-currency-converter",
     live: "https://live-currency-converter-sigma.vercel.app/",
@@ -59,7 +59,7 @@ const projects = [
   {
     title: "Tic Tac Toe",
     description:
-      "A simple Tic Tac Toe game built with JavaScript to practice game logic and DOM manipulation.",
+      "A responsive Tic Tac Toe game developed using HTML, CSS, and JavaScript to practice DOM manipulation, game logic, and user interaction.",
     tech: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/mohittsharma07/Tic-Tac-Toe-Game",
     live: "https://tic-tac-toe-game-bay-eight.vercel.app/",
@@ -69,7 +69,7 @@ const projects = [
   {
     title: "Rock Paper Scissors",
     description:
-      "A Rock Paper Scissors game with score tracking and simple game logic.",
+      "A responsive Rock Paper Scissors game with score tracking, random computer moves, and interactive gameplay built using HTML, CSS, and JavaScript.",
     tech: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/mohittsharma07/Rock-Paper-Scissors-Game",
     live: "https://rock-paper-scissors-game-ten-black.vercel.app/",
@@ -104,9 +104,10 @@ function Projects() {
           </h2>
 
           <p className="mt-7 max-w-2xl mx-auto text-slate-400 leading-8 text-lg">
-            These are some of the projects I've built while learning frontend
-            development. Each project helped me improve my React, TypeScript and
-            problem-solving skills.
+            These are some of the projects I've built to strengthen my
+            programming, problem-solving, and full-stack development skills.
+            Each project helped me gain practical experience with modern web
+            technologies and real-world application development.
           </p>
         </motion.div>
 
@@ -140,7 +141,6 @@ function Projects() {
 
               {project.images && (
                 <div className="mb-6">
-
                   {/* Main Image */}
 
                   <img

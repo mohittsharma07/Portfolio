@@ -76,9 +76,9 @@ function Certificates() {
           </h2>
 
           <p className="mt-7 max-w-2xl mx-auto text-slate-400 leading-8 text-lg">
-            These certifications represent my learning journey and the skills
-            I've gained while exploring software development and problem
-            solving.
+            These certificates reflect my learning journey and the skills I've
+            gained through coding, problem solving, and continuous practice
+            while exploring software development.
           </p>
         </motion.div>
 
@@ -165,7 +165,7 @@ function Certificates() {
                   }}
                   className="inline-flex items-center gap-3 mt-8 px-6 py-3 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 text-white font-semibold shadow-lg shadow-blue-500/20 hover:shadow-cyan-500/40 transition-all"
                 >
-                  Open Certificate
+                  View Certificate
                   <FaExternalLinkAlt className="text-sm" />
                 </motion.a>
               </div>

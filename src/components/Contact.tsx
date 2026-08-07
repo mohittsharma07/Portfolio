@@ -70,14 +70,15 @@ function Contact() {
         >
           <h2 className="text-4xl md:text-7xl font-black text-center">
             <span className="bg-gradient-to-r from-blue-400 via-cyan-300 to-blue-600 bg-clip-text text-transparent">
-              Let's Contact
+              Get In Touch
             </span>
           </h2>
 
           <p className="mt-6 max-w-2xl mx-auto text-slate-400 leading-8 text-lg">
-            Feel free to reach out if you'd like to discuss projects, internship
-            opportunities, or just connect. I'm always happy to learn from other
-            developers and build meaningful connections.
+            Feel free to contact me if you want to discuss a project, internship
+            opportunities, or web development. I'm always excited to learn new
+            technologies, work on real-world projects, and connect with
+            developers who share the same passion for technology.
           </p>
         </motion.div>
 

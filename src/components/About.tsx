@@ -32,31 +32,31 @@ function About() {
           <h2 className="text-5xl md:text-6xl font-extrabold text-white text-center leading-tight">
             About Me
             <span className="block mt-4 text-3xl md:text-4xl bg-gradient-to-r from-blue-400 via-cyan-300 to-blue-600 bg-clip-text text-transparent">
-              BCA Student & Frontend Developer
+              BCA Student & Aspiring Full Stack Developer
             </span>
           </h2>
 
           <p className="mt-8 text-slate-400 leading-8 text-lg">
             Hi, I'm
             <span className="text-blue-400 font-semibold"> Mohit Sharma</span>,
-            a passionate Frontend Developer currently pursuing my
-            <span className="text-white"> BCA (3rd Year)</span>. I enjoy
-            building responsive and user-friendly web applications while
-            continuously improving my skills through hands-on projects. My
-            primary technologies include
-            <span className="text-white">
-              {" "}
-              React, TypeScript, Tailwind CSS
-            </span>{" "}
-            and
-            <span className="text-white"> Firebase</span>.
+            a passionate
+            <span className="text-white"> BCA (3rd Year)</span> student. I have
+            learned
+            <span className="text-white"> C, C++, Java, Python</span> and
+            <span className="text-white"> Data Structures & Algorithms</span>. I
+            enjoy building responsive and user-friendly web applications using
+            <span className="text-white"> React, TypeScript, Tailwind CSS</span>
+            ,<span className="text-white"> Node.js</span>,
+            <span className="text-white"> Firebase</span> and
+            <span className="text-white"> SQL</span>.
           </p>
 
           <p className="mt-6 text-slate-400 leading-8 text-lg">
-            I'm currently focused on improving my frontend development skills by
-            building personal projects and exploring modern web technologies.
-            Every project helps me learn something new, and I'm continuously
-            working on creating better, more practical applications.
+            I'm continuously improving my coding and problem-solving skills by
+            building personal projects and learning new technologies. My goal is
+            to become a<span className="text-white"> Full Stack Developer</span>{" "}
+            and gain practical experience through internships and real-world
+            projects.
           </p>
 
           {/* Info Cards */}
@@ -95,7 +95,7 @@ function About() {
               <p className="text-slate-400 mt-3">Fresher</p>
 
               <p className="text-cyan-400 font-medium">
-                Looking for Internship
+                Project-Based Experience
               </p>
             </motion.div>
 
@@ -137,15 +137,22 @@ function About() {
 
             <div className="grid sm:grid-cols-2 gap-4">
               {[
+                "C",
+                "C++",
+                "Java",
+                "Python",
+                "Data Structures & Algorithms",
                 "React.js",
-                "Node.js",
                 "TypeScript",
+                "Node.js",
                 "Tailwind CSS",
+                "Bootstrap",
                 "Firebase",
-                "Responsive Design",
+                "SQL",
                 "Git & GitHub",
-                "Canva",
+                "Responsive Design",
                 "Problem Solving",
+                "Canva",
                 "Currently Building Projects",
                 "Open to Internship Opportunities",
               ].map((item, index) => (

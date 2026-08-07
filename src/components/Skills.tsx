@@ -17,6 +17,7 @@ import { FaMicrosoft } from "react-icons/fa6";
 import {
   SiTypescript,
   SiTailwindcss,
+  SiBootstrap,
   SiFirebase,
   SiMysql,
   SiCloudinary,
@@ -25,27 +26,29 @@ import {
 } from "react-icons/si";
 
 const skills = [
+  { name: "C", icon: <SiC />, color: "text-blue-400" },
+  { name: "C++", icon: <SiCplusplus />, color: "text-blue-500" },
+  { name: "Java", icon: <FaJava />, color: "text-red-500" },
+  { name: "Python", icon: <FaPython />, color: "text-yellow-300" },
+
   { name: "HTML", icon: <FaHtml5 />, color: "text-orange-500" },
   { name: "CSS", icon: <FaCss3Alt />, color: "text-blue-500" },
   { name: "JavaScript", icon: <FaJs />, color: "text-yellow-400" },
   { name: "TypeScript", icon: <SiTypescript />, color: "text-blue-400" },
+
   { name: "React", icon: <FaReact />, color: "text-cyan-400" },
   { name: "Node.js", icon: <FaNodeJs />, color: "text-green-500" },
   { name: "Tailwind CSS", icon: <SiTailwindcss />, color: "text-cyan-300" },
+  { name: "Bootstrap", icon: <SiBootstrap />, color: "text-purple-500" },
   { name: "Firebase", icon: <SiFirebase />, color: "text-yellow-500" },
   { name: "SQL", icon: <SiMysql />, color: "text-blue-500" },
-  { name: "Python", icon: <FaPython />, color: "text-yellow-300" },
-  { name: "Java", icon: <FaJava />, color: "text-red-500" },
-  { name: "C", icon: <SiC />, color: "text-blue-400" },
-  { name: "C++", icon: <SiCplusplus />, color: "text-blue-500" },
+
   { name: "Git", icon: <FaGitAlt />, color: "text-orange-500" },
   { name: "GitHub", icon: <FaGithub />, color: "text-white" },
   { name: "Cloudinary", icon: <SiCloudinary />, color: "text-blue-300" },
   { name: "MS Office", icon: <FaMicrosoft />, color: "text-blue-400" },
   { name: "Canva", icon: <FaPalette />, color: "text-cyan-400" },
-
 ];
-
 function Skills() {
   return (
     <section
@@ -73,8 +76,9 @@ function Skills() {
           </h2>
 
           <p className="mt-7 max-w-2xl mx-auto text-slate-400 leading-8 text-lg">
-            The technologies and tools I've been using to build frontend
-            projects and improve my development skills.
+            These are the programming languages, frameworks, databases, and
+            tools I have learned and use while building web applications and
+            improving my development skills.
           </p>
         </motion.div>
 
@@ -122,9 +126,9 @@ function Skills() {
           className="mt-20 text-center"
         >
           <p className="text-slate-400 text-lg max-w-3xl mx-auto leading-8">
-            I'm always learning new technologies and applying them in my
-            personal projects. Building projects helps me improve my coding
-            skills and gain practical experience.
+            I enjoy learning new technologies and improving my skills by
+            building personal projects. Every project helps me gain practical
+            experience and become a better developer.
           </p>
         </motion.div>
       </div>

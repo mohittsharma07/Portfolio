@@ -39,7 +39,6 @@ const socials = [
 function Footer() {
   return (
     <footer className="relative bg-black overflow-hidden border-t border-slate-800">
-      
       {/* Background Glow */}
 
       <div className="absolute top-0 left-0 w-72 h-72 bg-blue-600/10 blur-[120px] rounded-full" />
@@ -60,9 +59,10 @@ function Footer() {
             <h2 className="text-3xl font-black text-white">Mohit Sharma</h2>
 
             <p className="mt-3 text-slate-400 max-w-md leading-7">
-              BCA student passionate about frontend development and continuously
-              learning by building real-world projects with React, TypeScript,
-              Tailwind CSS and Firebase.
+              I'm a BCA 3rd Year student and an Aspiring Full Stack Developer
+              passionate about building modern web applications using React,
+              TypeScript, Node.js, Firebase, and Tailwind CSS while continuously
+              learning through real-world projects.
             </p>
           </div>
 
@@ -104,10 +104,11 @@ function Footer() {
           </p>
 
           <p className="text-slate-500 text-center">
-            Designed & Developrd by Mohit Sharma
+            Designed & Developed by Mohit Sharma using
             <span className="text-blue-400"> React</span>,
-            <span className="text-cyan-400"> TypeScript</span> &
-            <span className="text-green-400"> Tailwind CSS</span>
+            <span className="text-cyan-400"> TypeScript</span>,
+            <span className="text-green-400"> Tailwind CSS</span> &
+            <span className="text-yellow-400"> Firebase</span>
           </p>
 
           {/* Back To Top */}

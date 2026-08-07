@@ -47,7 +47,7 @@ function Navbar() {
           download="Mohit-Sharma-Resume.pdf"
           className="hidden lg:inline-flex px-6 py-3 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 text-white font-semibold shadow-lg shadow-blue-500/30 hover:scale-105 transition-all duration-300"
         >
-          Download Resume
+          Resume
         </a>
 
         {/* Mobile Button */}
@@ -103,7 +103,7 @@ function Navbar() {
                   onClick={() => setMenuOpen(false)}
                   className="block text-center px-6 py-3 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 text-white font-semibold shadow-lg shadow-blue-500/30"
                 >
-                  Download Resume
+                  Resume
                 </a>
               </div>
             </div>
